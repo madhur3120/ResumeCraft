@@ -1,21 +1,14 @@
- 
+const skinCodes = ['skin1', 'skin2', 'skin3', 'skin4'];
 
-export const skinCodes = ['skin1', 'skin2', 'skin3','skin4' ]; 
-
-// export const fontSize = ['small', 'medium', 'large' ];    
-
-// export const fontFamily = ['Josefin', 'Roboto', 'Montserrat' ];    
-// export const colors = ['blue', 'teal', 'green', 'yellow' ];  
-
-export const fieldCd = {
+const fieldCd = {
     FirstName: "FNAM",
     LastName: "LNAM",
-    Profession:"PROF",
-    ProfSummary:"PRSU",
+    Profession: "PROF",
+    ProfSummary: "PRSU",
     Phone: "PHON",
     City: "CITY",
     Company: "COMP",
-    Degree: "DGRE",   
+    Degree: "DGRE",
     FreeFormat: "FRFM",
     GraduationCGPA: "GRCG",
     GraduationYear: "GRYR",
@@ -27,7 +20,7 @@ export const fieldCd = {
     JobStartDate: "JSTD",
     JobState: "JSTA",
     JobTitle: "JTIT",
-    
+
     Location: "LOCN",
     SchoolCity: "SCIT",
     SchoolName: "SCHO",
@@ -40,9 +33,11 @@ export const fieldCd = {
     SchoolCountry: "SCNT",
     JobCountry: "JCNT",
     Country: "CNTY"
-    
+
 };
 
+export {
+    skinCodes,
+    fieldCd
+}
 
-
- 
